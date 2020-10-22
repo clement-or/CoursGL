@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7130937508138533484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7130937508138533494}
+  - component: {fileID: 7130937508138533485}
+  - component: {fileID: 1492772877255643583}
+  - component: {fileID: 7130937508138533483}
+  - component: {fileID: 7130937508138533482}
+  - component: {fileID: 7130937508138533495}
+  m_Layer: 0
+  m_Name: Boid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7130937508138533494
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7130937508138533484}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7130937508138533485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7130937508138533484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64fb450420aa4f946971a494e1c1e068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boidSettings:
+    repulsionDistance: 5
+    alignmentDistance: 9
+    attractionDistance: 50
+    repulsionForce: 15
+    alignmentForce: 3
+    attractionForce: 20
+    maxSpeed: 10
+    steerSpeed: 1
+  debug:
+    displayDebug: 0
+    directionArrowLength: 2
+    directionArrowColor: {r: 0, g: 0.58446574, b: 1, a: 1}
+    repulsionDistanceColor: {r: 1, g: 0, b: 0, a: 1}
+    alignmentDistanceColor: {r: 0, g: 0, b: 1, a: 1}
+    attractionDistanceColor: {r: 0, g: 1, b: 0, a: 1}
+--- !u!114 &1492772877255643583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7130937508138533484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b44f88cc208f4a1692d39ca78791fc4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  birdsModels:
+  - {fileID: 100092, guid: 7b7d8539cdecdd94ba53e8af65a526f6, type: 3}
+  - {fileID: 100092, guid: 5f38a05f6440d154495172bd3da87d55, type: 3}
+  - {fileID: 100092, guid: d7bf5fc6800d56b459109410ec6a0510, type: 3}
+  - {fileID: 100092, guid: 3f8d557d5878aef44954b96159c4292a, type: 3}
+  - {fileID: 100092, guid: d8d99f64bd34ecd4b83a752e630e4ba5, type: 3}
+  - {fileID: 100094, guid: c42b8d643b928594d8e92b17b63dfe06, type: 3}
+--- !u!65 &7130937508138533483
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7130937508138533484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &7130937508138533482
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7130937508138533484}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!135 &7130937508138533495
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7130937508138533484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 50
+  m_Center: {x: 0, y: 0, z: 0}

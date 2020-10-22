@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Topy\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Topy\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_CoursGL.1923409676.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Topy\Documents\Unity\CoursGL" t="IncludeRecursive">
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="CoinDeParadis" t="Include">
+          <e p="Imported" t="Include">
+            <e p="Island" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="CharacterMovement.cs" t="Include" />
+                <e p="FixedTiling.cs" t="Include" />
+                <e p="MouseLook.cs" t="Include" />
+                <e p="WaterScroller.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="IntroScripting" t="Include">
+          <e p="Resources" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="Billboard" t="Include">
+                <e p="billboard.cs" t="Include" />
+              </e>
+              <e p="imageEffects" t="Include">
+                <e p="cPrecision.cs" t="Include" />
+              </e>
+              <e p="psx-unlit.shader" t="Include" />
+              <e p="psx-unlit_noambient.shader" t="Include" />
+              <e p="psx-vertexlit.shader" t="Include" />
+              <e p="Reflective" t="Include">
+                <e p="psx-unlit-add.shader" t="Include" />
+                <e p="psx-unlit-mult.shader" t="Include" />
+                <e p="psx-unlit_noambient-add.shader" t="Include" />
+                <e p="psx-unlit_noambient-mult.shader" t="Include" />
+                <e p="psx-vertexlit-add.shader" t="Include" />
+                <e p="psx-vertexlit-mult.shader" t="Include" />
+              </e>
+              <e p="Resources" t="Include">
+                <e p="cPrecision.shader" t="Include" />
+              </e>
+              <e p="Trasparent" t="Include">
+                <e p="psx-trasparent-unlit-noambient.shader" t="Include" />
+                <e p="psx-trasparent-unlit.shader" t="Include" />
+                <e p="psx-trasparent-vertexlit.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Boid.cs" t="Include" />
+            <e p="CameraFollow.cs" t="Include" />
+            <e p="Debug" t="Include">
+              <e p="Debug.cs" t="Include" />
+            </e>
+            <e p="RandomBirdModel.cs" t="Include" />
+            <e p="Singletons" t="Include">
+              <e p="BoidManager.cs" t="Include" />
+              <e p="Singleton.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Standard Assets" t="Include">
+          <e p="Environment" t="Include">
+            <e p="Water" t="Include">
+              <e p="Water" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="Displace.cs" t="Include" />
+                  <e p="GerstnerDisplace.cs" t="Include" />
+                  <e p="MeshContainer.cs" t="Include" />
+                  <e p="PlanarReflection.cs" t="Include" />
+                  <e p="SpecularLighting.cs" t="Include" />
+                  <e p="Water.cs" t="Include" />
+                  <e p="WaterBase.cs" t="Include" />
+                  <e p="WaterTile.cs" t="Include" />
+                </e>
+                <e p="Shaders" t="Include">
+                  <e p="FXWaterPro.shader" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="CoursGL.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
